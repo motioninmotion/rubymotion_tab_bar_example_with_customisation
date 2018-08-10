@@ -32,8 +32,8 @@ class AppDelegate
 
       @tab_bar_controller.tabBar.tap do |tab_bar|
         tab_bar.barTintColor = UIColor.purpleColor
-        tab_bar.tintColor = UIColor.orangeColor
-        tab_bar.selectedImageTintColor = UIColor.greenColor
+        tab_bar.tintColor = UIColor.greenColor
+        tab_bar.unselectedItemTintColor = UIColor.orangeColor
       end
     end
     @tab_bar_controller
